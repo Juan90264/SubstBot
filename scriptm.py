@@ -26,4 +26,4 @@ if testar:
 
 if testar:
   with codecs.open('teste.txt', 'w', 'utf-8') as f:
-    f.write(test)  
+    f.write(test)
