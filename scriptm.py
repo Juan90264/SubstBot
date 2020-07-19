@@ -6,7 +6,7 @@
 @ Licença: GNU General Public License 2.0 (GPLv2)
 """
 
-import pywikibot, css, re, time, codecs
+import pywikibot
 
 # Ao ativar o modo testar a configuração é lida na mesma pasta e as edições 
 # que seriam feitas salvas em teste.txt, nenhuma edição é feita na Wikipédia.
@@ -14,8 +14,12 @@ testar = False
 
 site = pywikibot.Site()
 
-# A configuração
+# A configuração para adicionar {{SUBST: nas páginas de discussão de usuários
+ python pwb.py add_text -cat:"!Páginas com predefinições que deveriam ser substituídas" 
+-summary:"Bot: adicionando [[WP:SUBST|SUBST]] numa predefinição" \ -text:"SUBST:" -except:"\{\{([Ss]subst:|)"
 
+      
+# Ao salvar em modo teste
 if testar:
   test = u'# Teste de arquivo.py #\n'
   
@@ -27,3 +31,6 @@ if testar:
 if testar:
   with codecs.open('teste.txt', 'w', 'utf-8') as f:
     f.write(test)
+    
+    
+    
