@@ -1,4 +1,4 @@
-# SubstBot
+# SustBot
 
 Script para adicionar o SUBST: nas predefinições devidas.
 
