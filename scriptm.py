@@ -7,11 +7,20 @@
 """
 
 import pywikibot
+from pywikibot import pagegenerators
 
-# Ao ativar o modo testar a configuração é lida na mesma pasta e as edições 
-# que seriam feitas salvas em teste.txt, nenhuma edição é feita na Wikipédia.
-testar = False
+site = pywikibot.Site()
+cat = pywikibot.Category(site,'Categoria:!Páginas com predefinições que deveriam ser substituídas','Categoria:!Páginas com predefinições que deveriam ser substituídas pelo SustBot')
+gen = pagegenerators.CategorizedPageGenerator(cat)
+for page in gen:
+    #A configuração para adicionar {{SUBST: nas páginas nas categorias selecionadas
+    text = page.text
+   
+page.text = u"SUBST:"
+page.save = u"Bot: adicionando [[WP:SUBST|SUBST]] numa predefinição"
 
+
+-----------------------------------------------------------------------------------------------------------
 site = pywikibot.Site()
 
 # A configuração para adicionar {{SUBST: nas páginas de discussão de usuários
