@@ -20,6 +20,9 @@ page.text = u"SUBST:"
 page.save = u"Bot: adicionando [[WP:SUBST|SUBST]] numa predefinição"
 
 
+if __name__ == '__main__':
+    main()
+
 -----------------------------------------------------------------------------------------------------------
 site = pywikibot.Site()
 
