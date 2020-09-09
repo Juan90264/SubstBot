@@ -6,8 +6,8 @@ Script para adicionar o SUBST: nas predefinições devidas.
 
 Operador do bot: https://pt.wikipedia.org/wiki/Usuário:Juan90264
 
-Bot: <s>https://pt.wikipedia.org/wiki/User:SubstBot</s>
+Bot: https://pt.wikipedia.org/wiki/User:SustBot
 
 ## Scripts
 
-Os script não estão prontos!!!
+
