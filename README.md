@@ -10,4 +10,4 @@ Bot: https://pt.wikipedia.org/wiki/User:SustBot
 
 ## Scripts
 
-[[https://github.com/Juan90264/SustBot/blob/master/user-fixes.py|user-fixes.py]] - Contém as predefinições que devem ser substuídas.
+[user-fixes.py](https://github.com/Juan90264/SustBot/blob/master/user-fixes.py) - Contém as predefinições que devem ser substuídas.
