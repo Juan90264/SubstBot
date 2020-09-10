@@ -16,7 +16,7 @@ fixes['checksubst'] = {
     },
     'replacements': [
     (r'\{\{[Aa]eronave futra', r'{{SUBST:Aeronave futra'),
-    (r'\{\{Wikipedia:Projetos/[Aa]eroportos do Brasil/Convite', r'{{SUBST:Wikipedia:Projetos/[Aa]eroportos do Brasil/Convite'),
+    (r'\{\{[Ww]ikipedia:Projetos/Aeroportos do Brasil/Convite', r'{{SUBST:[Ww]ikipedia:Projetos/Aeroportos do Brasil/Convite'),
     (r'\{\{[Áá]lbuns/Convite', r'{{SUBST:[Áá]lbuns/Convite'),
     (r'\{\{[Aa]lerta', r'{{SUBST:Alerta'),
     (r'\{\{[Aa]lerta de sock', r'{{SUBST:Alerta de sock'),
