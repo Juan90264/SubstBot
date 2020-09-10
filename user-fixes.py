@@ -12,7 +12,7 @@ if 'fixes' not in globals(): fixes = {}
 fixes['checksubst'] = {
     'regex': True,
     'msg': {
-        '_default': 'Bot: adicionando [[WP:SUBST|SUBST]] numa predefinição',
+        '_default': 'Bot: adicionando [[WP:SUBST|SUBST]] em algumas predefinições',
     },
     'replacements': [
     (r'\{\{[Aa]eronave futra', r'{{SUBST:Aeronave futra'),
@@ -295,7 +295,6 @@ fixes['checksubst'] = {
     (r'\{\{[Hh]istória militar/Convite', r'{{SUBST:História militar/Convite'),
     (r'\{\{[Hh]um', r'{{SUBST:Hum'),
     (r'\{\{[Ii] GP Wikimedia Brasil/Convite', r'{{SUBST:I GP Wikimedia Brasil/Convite'),
-    (r'\{\{[Ii]*', r'{{SUBST:I*'),
     (r'\{\{[Ii]deia', r'{{SUBST:Ideia'),
     (r'\{\{[Ii]mpraticável', r'{{SUBST:Impraticável'),
     (r'\{\{[Ii]nadequado', r'{{SUBST:Inadequado'),
