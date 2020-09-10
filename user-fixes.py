@@ -395,6 +395,7 @@ fixes['checksubst'] = {
     (r'\{\{[Oo]rgulho', r'{{SUBST:Orgulho'),
     (r'\{\{[Pp]ab', r'{{SUBST:Pab'),
     (r'\{\{[Pp]acman', r'{{SUBST:Pacman'),
+    (r'\{\{[Pp]AGENAME', r'{{SUBST:PAGENAME'),
     (r'\{\{[Pp]áginas externas', r'{{SUBST:Páginas externas'),
     (r'\{\{[Pp]arabénsSQ', r'{{SUBST:ParabénsSQ'),
     (r'\{\{[Pp]arou', r'{{SUBST:Parou'),
