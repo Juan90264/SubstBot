@@ -33,7 +33,8 @@ fixes['checksubst'] = {
     (r'\{\{[Aa]provo', r'{{SUBST:Aprovo'),
     (r'\{\{[Aa]rqueologia/Convite', r'{{SUBST:Arqueologia/Convite'),
     (r'\{\{[Aa]rte/Convite', r'{{SUBST:Arte/Convite'),
-    (r'\{\{[Áá]sia/Convite', r'{{SUBST:[Áá]sia/Convite'),
+    (r'\{\{[Áá]sia/Convite', r'{{SUBST:Ásia/Convite'),
+    (r'\{\{[Aa]ssine', r'{{SUBST:Assine'),
     (r'\{\{[Aa]ssobiar', r'{{SUBST:Assobiar'),
     (r'\{\{[Aa]tlético Mineiro/Convite', r'{{SUBST:Atlético Mineiro/Convite'),
     (r'\{\{[Aa]v-Bpv', r'{{SUBST:Av-Bpv'),
@@ -360,10 +361,10 @@ fixes['checksubst'] = {
     (r'\{\{[Mm]úsica/Convite', r'{{SUBST:Música/Convite'),
     (r'\{\{[Nn]ão apoio', r'{{SUBST:Não apoio'),
     (r'\{\{[Nn]ão assinou', r'{{SUBST:Não assinou'),
+    (r'\{\{[Nn]ão concordo', r'{{SUBST:Não concordo'),
     (r'\{\{[Nn]ão excluímos conta', r'{{SUBST:Não excluímos conta'),
     (r'\{\{[Nn]ão há erro', r'{{SUBST:Não há erro'),
     (r'\{\{[Nn]ão responda', r'{{SUBST:Não responda'),
-    (r'\{\{[Nn]ão.', r'{{SUBST:Não.'),
     (r'\{\{[Nn]ão1', r'{{SUBST:Não1'),
     (r'\{\{[Nn]atação/Convite', r'{{SUBST:Natação/Convite'),
     (r'\{\{[Nn]aval/Convite', r'{{SUBST:Naval/Convite'),
@@ -468,7 +469,6 @@ fixes['checksubst'] = {
     (r'\{\{[Ss]uspensão', r'{{SUBST:Suspensão'),
     (r'\{\{[Ss]uspenso', r'{{SUBST:Suspenso'),
     (r'\{\{[Ss]usto', r'{{SUBST:Susto'),
-    (r'\{\{[Tt]+', r'{{SUBST:T+'),
     (r'\{\{[Tt]abela bonita', r'{{SUBST:Tabela bonita'),
     (r'\{\{[Tt]elenovela atual', r'{{SUBST:Telenovela atual'),
     (r'\{\{[Tt]elenovela futura', r'{{SUBST:Telenovela futura'),
@@ -530,6 +530,5 @@ fixes['checksubst'] = {
     (r'\{\{[Zz]Z', r'{{SUBST:ZZ')
     ]
 }
-
 
     
