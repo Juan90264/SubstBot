@@ -1,10 +1,10 @@
 # SustBot
 
-Script para adicionar o SUBST: nas predefinições devidas.
+Script to add SUBST: in the presets due.
 
-## Usuários
+## Users
 
-Operador do bot: https://pt.wikipedia.org/wiki/Usuário:Juan90264
+Bot operator: https://pt.wikipedia.org/wiki/Usuário:Juan90264
 
 Bot: https://pt.wikipedia.org/wiki/User:SustBot
 
